@@ -1,3 +1,6 @@
-m1 = list(input())
-
-print(m1)
+string=input()
+max=0
+a=[]
+i=0
+while i<len(string):
+    
