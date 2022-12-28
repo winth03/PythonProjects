@@ -22,7 +22,7 @@ if __name__ == "__main__":
             # Save new data
             df.to_csv(f"./lab2_data/{file}.csv", index=False)
             # Ask user if they want to add more data
-            if input("Do you want to add more data? (y, Enter/n): ") == "n": break
+            if input("Do you want to add more data? (Enter/y, n): ") == "n": break
     else:
         print("File does not exist")
         # Create new file
@@ -44,4 +44,4 @@ if __name__ == "__main__":
             # Save new data
             df.to_csv(f"./lab2_data/{file}.csv", index=False)
             # Ask user if they want to add more data
-            if input("Do you want to add more data? (y, Enter/n): ") == "n": break
+            if input("Do you want to add more data? (Enter/y, n): ") == "n": break
