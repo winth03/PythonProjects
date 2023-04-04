@@ -1,3 +1,5 @@
 venv
 AI/AI/
 vr-app/
+.vscode
+_pycache_
