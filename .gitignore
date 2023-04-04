@@ -2,4 +2,5 @@ venv
 AI/AI/
 vr-app/
 .vscode
-_pycache_
+__pycache__
+AlgoLab/__pycache__/
